@@ -116,14 +116,26 @@
                 <source>action.sign_in</source>
                 <target>Iniciar sessió</target>
             </trans-unit>
+
+
+
             <trans-unit id="action.browse_app">
                 <source>action.browse_app</source>
                 <target>Accedir a l'aplicació</target>
             </trans-unit>
+
             <trans-unit id="action.browse_admin">
                 <source>action.browse_admin</source>
                 <target>Accedir al backend</target>
             </trans-unit>
+
+            <trans-unit id="action.browse_tag">
+                <source>action.browse_etiquetas</source>
+                <target>Accedir a las etiquetas</target>
+            </trans-unit>
+
+
+
 
             <trans-unit id="label.title">
                 <source>label.title</source>
@@ -224,14 +236,35 @@
                 <source>help.show_code</source>
                 <target><![CDATA[Prem aquest botó per veure el codi font del <strong>controlador</strong> i de la <strong>plantilla</strong> utilitzats per crear aquesta pàgina.]]></target>
             </trans-unit>
+
+
+
+
+
+
+
             <trans-unit id="help.browse_app">
                 <source>help.browse_app</source>
                 <target><![CDATA[Accedir a la <strong>part pública</strong> de l'aplicació de demostració.]]></target>
             </trans-unit>
+
+
             <trans-unit id="help.browse_admin">
                 <source>help.browse_admin</source>
                 <target><![CDATA[Accedir a la <strong>part d'administració</strong> de l'aplicació de demostració.]]></target>
             </trans-unit>
+
+
+            <trans-unit id="help.browse_etiquetas">
+                <source>help.browse_etiquetas</source>
+                <target><![CDATA[Accedir a la <strong>parte de tags</strong> de l'aplicació de demostració.]]></target>
+            </trans-unit>
+
+
+
+
+
+
             <trans-unit id="help.login_users">
                 <source>help.login_users</source>
                 <target>Prova a accedir amb aquests usuaris</target>
