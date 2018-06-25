@@ -83,11 +83,8 @@ class TagController extends Controller
         }
         return $this->render('tag/edit.html.twig', array(
             'demandante' => $tag,
-            'edit_form' => $editForm->createView(),
-            
+            'edit_form' => $editForm->createView(),  
         ));
-
-
 
     }
 
