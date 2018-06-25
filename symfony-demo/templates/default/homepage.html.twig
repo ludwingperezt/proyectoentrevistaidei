@@ -14,7 +14,28 @@
         <h1>{{ 'title.homepage'|trans|raw }}</h1>
     </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="row">
+
+
+
+
+
+
+
+
         <div class="col-sm-6">
             <div class="jumbotron">
                 <p>
@@ -28,6 +49,9 @@
             </div>
         </div>
 
+
+
+
         <div class="col-sm-6">
             <div class="jumbotron">
                 <p>
@@ -40,5 +64,30 @@
                 </p>
             </div>
         </div>
+
+
+
+        <div class="col-sm-6">
+            <div class="jumbotron">
+                <p>
+                    {{ 'help.browse_tag'|trans|raw }}
+                </p>
+                <p>
+                    <a class="btn btn-primary btn-lg" href="{{ path('tag') }}">
+                        <i class="fa fa-users" aria-hidden="true"></i> {{ 'action.browse_tag'|trans }}
+                    </a>
+                </p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
     </div>
 {% endblock %}

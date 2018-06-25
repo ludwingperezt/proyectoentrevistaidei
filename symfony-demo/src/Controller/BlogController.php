@@ -52,6 +52,7 @@ class BlogController extends AbstractController
     {
         $latestPosts = $posts->findLatest($page);
 
+
         // Every template name also has two extensions that specify the format and
         // engine for that template.
         // See https://symfony.com/doc/current/templating.html#template-suffix

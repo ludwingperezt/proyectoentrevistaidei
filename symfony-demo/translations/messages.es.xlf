@@ -80,6 +80,13 @@
                 <source>title.post_list</source>
                 <target>Listado de artículos</target>
             </trans-unit>
+
+
+            <trans-unit id="title.tag_list">
+                <source>title.tag_list</source>
+                <target>Listado de tags</target>
+            </trans-unit>
+
             <trans-unit id="title.edit_post">
                 <source>title.edit_post</source>
                 <target>Editar artículo #%id%</target>
@@ -137,6 +144,26 @@
                 <source>action.create_post</source>
                 <target>Crear un nuevo artículo</target>
             </trans-unit>
+
+
+
+            <trans-unit id="action.create_tag">
+                <source>action.create_tag</source>
+                <target>Crear un nuevo tag</target>
+            </trans-unit>
+
+            <trans-unit id="label.create_tag">
+                <source>label.create_tag</source>
+                <target>Crear tag</target>
+            </trans-unit>
+
+            <trans-unit id="label.edit_tag">
+                <source>label.edit_tag</source>
+                <target>Editar tag</target>
+            </trans-unit>
+
+
+
             <trans-unit id="label.create_post">
                 <source>label.create_post</source>
                 <target>Crear artículo</target>
@@ -149,6 +176,10 @@
                 <source>action.back_to_list</source>
                 <target>Volver al listado de artículos</target>
             </trans-unit>
+            <trans-unit id="action.back_to_tag">
+                <source>action.back_to_tag</source>
+                <target>Volver al listado de TAGS</target>
+            </trans-unit>
             <trans-unit id="action.publish_comment">
                 <source>action.publish_comment</source>
                 <target>Publicar comentario</target>
@@ -157,6 +188,8 @@
                 <source>action.sign_in</source>
                 <target>Iniciar sesión</target>
             </trans-unit>
+
+
             <trans-unit id="action.browse_app">
                 <source>action.browse_app</source>
                 <target>Acceder a la aplicación</target>
@@ -164,6 +197,11 @@
             <trans-unit id="action.browse_admin">
                 <source>action.browse_admin</source>
                 <target>Acceder al backend</target>
+            </trans-unit>
+
+            <trans-unit id="action.browse_tag">
+                <source>action.browse_tag</source>
+                <target>Acceder a las tag</target>
             </trans-unit>
 
             <trans-unit id="label.title">
@@ -214,6 +252,22 @@
                 <source>title.post_new</source>
                 <target>Nuevo artículo</target>
             </trans-unit>
+
+
+
+            <trans-unit id="title.tag_new">
+                <source>title.tag_new</source>
+                <target>Nuevo TAG</target>
+            </trans-unit>
+
+            <trans-unit id="title.tag_edit">
+                <source>title.tag_edit</source>
+                <target>Editar TAG</target>
+            </trans-unit>
+
+
+
+
             <trans-unit id="action.edit_contents">
                 <source>action.edit_contents</source>
                 <target>Editar contenidos</target>
@@ -277,14 +331,27 @@
                 <source>help.show_code</source>
                 <target><![CDATA[Pulsa este botón para ver el código fuente del <strong>controlador</strong> y de la <strong>plantilla</strong> utilizados para crear esta página.]]></target>
             </trans-unit>
+
+
+
             <trans-unit id="help.browse_app">
                 <source>help.browse_app</source>
                 <target><![CDATA[Acceder a la <strong>parte pública</strong> de la aplicación de demostración.]]></target>
             </trans-unit>
+
             <trans-unit id="help.browse_admin">
                 <source>help.browse_admin</source>
                 <target><![CDATA[Acceder a la <strong>parte de administración</strong> de la aplicación.]]></target>
             </trans-unit>
+
+            <trans-unit id="help.browse_tag">
+                <source>help.browse_tag</source>
+                <target><![CDATA[Acceder a la <strong>parte de tags</strong> de la aplicación.]]></target>
+            </trans-unit>
+
+
+
+
             <trans-unit id="help.login_users">
                 <source>help.login_users</source>
                 <target>Prueba a acceder con estos usuarios</target>
